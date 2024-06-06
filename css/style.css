@@ -25,6 +25,7 @@ SFONDO CARD #100E17
 img {
     height: 100px;
     margin-right: 15px;
+    border-radius: 5px 0 0 5px;
 }
 
 
@@ -44,6 +45,7 @@ h1 {
 .card {
     color: white;
     background-color: #100E17;
+    border-radius: 5px;
 }
 
 .nomi {

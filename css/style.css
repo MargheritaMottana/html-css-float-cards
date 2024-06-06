@@ -3,7 +3,7 @@ PALETTE
 
 TITOLO #E5316F
 MAIL #6CC5E3
-SFONDO RIQUADRI #100E17
+SFONDO CARD #100E17
 */
 
 /* RESET */
@@ -12,4 +12,65 @@ SFONDO RIQUADRI #100E17
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: fredoka;
+}
+
+/* GENERAL */
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+img {
+    height: 100px;
+    margin-right: 15px;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #E5316F;
+    margin: 20px;
+}
+
+/* CARD */
+
+.card {
+    color: white;
+    background-color: #100E17;
+}
+
+.nomi {
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+[href] {
+    text-decoration: none;
+    color: #6CC5E3;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
 }

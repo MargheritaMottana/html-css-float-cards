@@ -46,12 +46,15 @@ h1 {
     color: white;
     background-color: #100E17;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .nomi {
     font-size: large;
     font-weight: bold;
-    margin: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 [href] {
